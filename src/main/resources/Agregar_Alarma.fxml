@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="279.0" prefWidth="253.0" text="NUEVA ALARMA" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="171.0" prefWidth="251.0">
+            <children>
+                <ComboBox fx:id="ComboBoxTipoDeAlarma" layoutX="28.0" layoutY="11.0" prefHeight="26.0" prefWidth="196.0" promptText="Tipo de Alarma" />
+                <ToolBar layoutX="111.0" layoutY="213.0" prefHeight="40.0" prefWidth="140.0">
+                    <items>
+                        <Button fx:id="AgregarAlarma" mnemonicParsing="false" prefHeight="25.0" prefWidth="62.0" text="Agregar" />
+                        <Button fx:id="CancelarAlarma" mnemonicParsing="false" text="Cancelar" />
+                    </items>
+                </ToolBar>
+                <DatePicker fx:id="FechaPickerAlarma" layoutX="27.0" layoutY="48.0" prefHeight="25.0" prefWidth="197.0" />
+                <TextField fx:id="TextFieldHoras" layoutX="28.0" layoutY="84.0" opacity="0.7" prefHeight="25.0" prefWidth="196.0" text="Horas">
+                    <font>
+                        <Font name="System Italic" size="12.0" />
+                    </font>
+                </TextField>
+                <TextField fx:id="TextFieldMinutos" layoutX="28.0" layoutY="119.0" opacity="0.7" prefHeight="25.0" prefWidth="196.0" text="Minutos">
+                    <font>
+                        <Font name="System Italic" size="12.0" />
+                    </font>
+                </TextField>
+                <TextField fx:id="TextFieldMinutosAntes" layoutX="28.0" layoutY="154.0" opacity="0.7" prefHeight="25.0" prefWidth="196.0" text="Minutos antes">
+                    <font>
+                        <Font name="System Italic" size="12.0" />
+                    </font>
+                </TextField>
+                <CheckBox fx:id="CheckBoxEsDefinida" layoutX="29.0" layoutY="188.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="196.0" text="Es definida">
+                    <font>
+                        <Font name="System Italic" size="12.0" />
+                    </font>
+                </CheckBox>
+            </children></AnchorPane>
+    </content>
+    <font>
+        <Font name="System Italic" size="12.0" />
+    </font>
+</TitledPane>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Tareas>
+    <LogicaNegocios.Tarea>
+        <titulo>Titulo</titulo>
+        <desc>Descripción</desc>
+        <fechaLim>2023-06-19 00:00:00</fechaLim>
+        <diaComp>true</diaComp>
+        <estaComp>false</estaComp>
+    </LogicaNegocios.Tarea>
+    <LogicaNegocios.Tarea>
+        <titulo>TestCompletar</titulo>
+        <desc>Descripción</desc>
+        <fechaLim>2023-06-20 00:00:00</fechaLim>
+        <diaComp>true</diaComp>
+        <estaComp>true</estaComp>
+    </LogicaNegocios.Tarea>
+</Tareas>
